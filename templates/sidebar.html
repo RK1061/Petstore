@@ -1,0 +1,35 @@
+<div class="col-md-2 p-2">
+   <h5 class="mt-2">Categories</h5>
+   <hr>
+   <p><a href="/filter-by-cat/cat" class="text-decoration-none">Cat</a></p>
+   <p><a href="/filter-by-cat/dog" class="text-decoration-none">Dog</a></p>
+   <p><a href="/filter-by-cat/Reptiale" class="text-decoration-none">Reptiale</a></p>
+
+   <h5 class="mt-4">Filter-by-range</h5>
+   <hr>
+   <form action="/filter-by-range" method="get">
+       <div class="mb-2">
+           <label class="form-label">Min</label>
+           <input type="number" class="form-control" placeholder="min value" name="min">
+       </div>
+       <div class="mb-2">
+           <label class="form-label">Max</label>
+           <input type="number" class="form-control" placeholder="max value" name="max">
+       </div>
+       <button type="submit" class="btn btn-danger w-100">Search</button>
+   </form>
+
+   <h5 class="mt-4">Sort By price</h5>
+   <hr>
+   <p><a href="/sort-by-price/asc" class="text-decoration-none">Low to High</a></p>
+   <p><a href="/sort-by-price/dsc" class="text-decoration-none">High to Low</a></p>
+
+   <h5 class="mt-4">Search</h5>
+   <hr>
+   <form action="">
+       <div class="mb-2">
+           <input type="text" class="form-control" placeholder="Search...">
+       </div>
+       <button type="button" class="btn btn-danger w-100">Search</button>
+   </form>
+</div>
